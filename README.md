@@ -45,4 +45,17 @@ https://www.youtube.com/watch?v=WuBcTJnIuzo
     `SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON transactions.order_date=date.date where date.year=2020
 and transactions.market_code="Mark001";`
 
+## Demo Images 
+
+## Mobile layout 
+
+![mobile](https://github.com/Vedant478/Sales_insigths/assets/55829535/bd4dc7c0-3d8b-4276-802f-303a70f6e5af)
+
+## Dashboard
+
+![DashBoard_page 1](https://github.com/Vedant478/Sales_insigths/assets/55829535/538f4c8e-4ff4-4a2c-9cec-954dd3153f03)
+
+![Dashboard_page2](https://github.com/Vedant478/Sales_insigths/assets/55829535/9fb518ed-3307-46fd-a61b-33ce270f703c)
+
+
 
