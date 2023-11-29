@@ -57,5 +57,9 @@ and transactions.market_code="Mark001";`
 
 ![Dashboard_page2](https://github.com/Vedant478/Sales_insigths/assets/55829535/9fb518ed-3307-46fd-a61b-33ce270f703c)
 
+## Demo Video
+
+https://github.com/Vedant478/Sales_insigths/assets/55829535/9e2cc106-324c-4df9-ad68-6b5a248ac8e4
+
 
 
