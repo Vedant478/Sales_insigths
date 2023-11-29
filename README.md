@@ -45,6 +45,23 @@ https://www.youtube.com/watch?v=WuBcTJnIuzo
     `SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON transactions.order_date=date.date where date.year=2020
 and transactions.market_code="Mark001";`
 
+## Star Schema and Realtionships
+
+A star schema is a type of database schema commonly used in data warehousing and business intelligence applications. It is designed to organize data into a logical structure that facilitates efficient querying and reporting. The star schema consists of a central fact table linked to one or more dimension tables, forming a pattern that resembles a star when visualized.
+Here are the key components of a star schema:
+
+Fact Table:Central to the schema, the fact table contains quantitative data (facts) that can be aggregated. This data is typically numerical and represents business metrics such as sales, revenue, quantity, etc.
+Each row in the fact table corresponds to a specific event or transaction and includes foreign keys that link to the dimension tables.
+
+Dimension Tables:Surrounding the fact table are dimension tables, which contain descriptive attributes that provide context to the data in the fact table.
+Each dimension table corresponds to a category or aspect of the business, such as time, geography, product, or customer.
+Dimension tables are connected to the fact table through foreign key relationships.
+
+The star schema is called so because, when visualized, the structure resembles a star with the fact table at the center and dimension tables radiating outwards. This design simplifies queries by allowing users to easily join the fact table with one or more dimension tables to retrieve relevant information. The schema is denormalized, meaning that redundant data is often included in dimension tables to minimize the need for complex joins and improve query performance.
+
+![Star_schema ](https://github.com/Vedant478/Sales_insigths/assets/55829535/fa912b48-066b-4ee3-829c-264d80f24f3d)
+
+
 ## Demo Images 
 
 ## Mobile layout 
